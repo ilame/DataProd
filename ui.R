@@ -60,7 +60,7 @@ shinyUI(fluidPage(
                           p("Source: ", a("Wikipedia", 
                                  href = "https://en.wikipedia.org/wiki/Body_mass_index")),
                  
-                          p(strong("Codes are available in my Github repository:",a("Developing Data Products - Course Project",href="https://github.com/ilame/DevDataProd")))
+                          p(strong("Codes are available in my Github repository:",a("Developing Data Products - Course Project",href="https://github.com/ilame/DataProd")))
                           
                           
                  )
