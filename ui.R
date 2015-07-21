@@ -6,7 +6,7 @@ shinyUI(fluidPage(
    
     sidebarPanel(
       numericInput('Height', 'Your Height', value = 1.75, step=0.1),
-      numericInput('Weight', 'Your Weight', value = 75),
+      numericInput('Mass', 'Your Weight', value = 75),
       
       radioButtons(
         inputId  = "units",
@@ -55,12 +55,12 @@ shinyUI(fluidPage(
                           is overweight, and a number from 30 upwards suggests the person is obese.",    
                           
                           
-                          br(), h6(strong("Formula:"))," BMI= Weight / (Height^2) kg/m^2"),
+                          br(), h6(strong("Formula:"))," BMI= Mass / (Height^2) kg/m^2"),
                  
                           p("Source: ", a("Wikipedia", 
                                  href = "https://en.wikipedia.org/wiki/Body_mass_index")),
                  
-                          p(strong("Github repository:",a("Developing Data Products - Course Project",href="https://github.com/ilame/DevDataProd")))
+                          p(strong("Codes are available in my Github repository:",a("Developing Data Products - Course Project",href="https://github.com/ilame/DevDataProd")))
                           
                           
                  )
