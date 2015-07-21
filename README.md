@@ -16,6 +16,6 @@ The application must include the following:
 
 In this repository, I share server.R and ui.R files.
 
-To try the application, please click ![here] (https://ilame.shinyapps.io/Test3)
-To view the presentation, please click ![here] (http://rpubs.com/ilame/93722)
+To try the application, please click [here] (https://ilame.shinyapps.io/Test3)
+To view the presentation, please click [here] (http://rpubs.com/ilame/93722)
 
